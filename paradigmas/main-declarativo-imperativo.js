@@ -17,7 +17,7 @@
    */
 
 
-// Exemplo código imperativo -> Mt focado em COMO fazer cada parte 
+// Exemplo código imperativo -> Mt focado em COMO fazer cada parte.
 
 const notas = [5, 7, 8.4 , 6, 8];
 
@@ -35,13 +35,13 @@ const mediaImperativa = calcularMedia(notas);
 
 console.log(`A média final é: ${mediaImperativa}`);
 
-// Exemplo de código declarativo -> mt focado em O QUE -> ele te que retornar
+// Exemplo de código declarativo -> mt focado em O QUE -> programação funcional.
 
 const notas2 = [5, 7, 8.4 , 6, 8];
 
 const somar = (a, b) => a + b;
 const dividir = (a, b) => a / b;
 
-const mediaDeclarativa = dividir( notas.reduce(somar), notas2.length)
+const mediaDeclarativa = dividir(notas.reduce(somar), notas2.length)
 
 console.log(`A média final é: ${mediaDeclarativa}`);
