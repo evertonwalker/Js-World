@@ -56,4 +56,4 @@ const multiplicar = (n1, n2) => n1 * n2
 console.log(calcular(10, 10, somarNovo)) // -> 20
 console.log(calcular(15, 10, substrair)) // -> 5
 console.log(calcular(10, 2, dividir)) // -> 5
-console.log(multiplicar(10, 10, substrair)) // -> 100
+console.log(calcular(10, 10, multiplicar)) // -> 100
