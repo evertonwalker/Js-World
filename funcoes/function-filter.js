@@ -1,7 +1,5 @@
 /*
-
 A função filter serve para retirar os itens de um array baseado em uma determinada condição
-
 */
 
 const numeros = [1, 2, 3, 4]
