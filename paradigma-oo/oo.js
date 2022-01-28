@@ -1,4 +1,5 @@
 // aqui temos algo chamado syntax sugar, porque todos os objetos no javascript na verdade são funções.
+// Função construtora
 function Produto(nome, preco, desc = 0.15) {
     // Quando você usa o this, em casos de funções, você deixa esses valores públicos para serem acessados.
     this.nome = nome;
