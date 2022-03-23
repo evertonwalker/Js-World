@@ -1,0 +1,23 @@
+{
+  "name": "js-world",
+  "version": "1.0.0",
+  "description": "Todos os assuntos estão comentados nas linhas dos arquivos que estaram categorizadas por pastas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evertonwalker/Js-World.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evertonwalker/Js-World/issues"
+  },
+  "homepage": "https://github.com/evertonwalker/Js-World#readme",
+  "dependencies": {
+    "rxjs": "^7.5.5"
+  }
+}
